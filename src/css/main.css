@@ -1,0 +1,6 @@
+@import 'tailwind-preflight.css';
+@import 'tailwind-utilities.css';
+
+p {
+  color: #cccccc;
+}
