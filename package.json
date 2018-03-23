@@ -20,7 +20,6 @@
     "@types/react": "^16.0.40",
     "@zeit/next-css": "0.1.2",
     "autoprefixer": "8.0.0",
-    "babel-loader": "7.1.3",
     "css-loader": "0.28.10",
     "next-awesome-typescript": "^0.2.0",
     "postcss": "6.0.19",

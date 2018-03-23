@@ -13,7 +13,7 @@ const next = {
       },
       {
         test: /\.css$/,
-        use: ['babel-loader', 'raw-loader', 'postcss-loader']
+        use: ['raw-loader', 'postcss-loader']
       }
     )
     return config
