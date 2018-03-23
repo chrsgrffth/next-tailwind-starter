@@ -1,6 +1,7 @@
 {
   "recommendations": [
     "chenxsan.vscode-standardjs",
-    "shinnn.stylelint"
+    "shinnn.stylelint",
+    "eg2.tslint"
   ]
 }
