@@ -1,6 +1,16 @@
 @import 'tailwind-preflight.css';
 @import 'tailwind-utilities.css';
 
-p {
-  color: #cccccc;
+body,
+html {
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.antialiased {
+  -webkit-font-smoothing: antialiased;
+}
+
+img {
+  width: 100%;
 }

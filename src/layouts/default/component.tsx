@@ -6,7 +6,7 @@ interface Props {
   children?: React.ReactNode
 }
 
-export class DefaultLayout extends React.Component<{}, {}> {
+export class DefaultLayout extends React.Component<Props, {}> {
 
   render () {
     return (
@@ -16,7 +16,7 @@ export class DefaultLayout extends React.Component<{}, {}> {
           <meta name='viewport' content='initial-scale=1.0, width=device-width' />
         </Head>
         <style>{stylesheet}</style>
-        <div className='pt-5'>Test</div>
+        {this.props.children}
       </div>
     )
   }
