@@ -1,14 +1,25 @@
 # Next.js + Tailwind.css Starter
 
-Next.js is "a minimalistic framework for server-rendered React applications". Tailwind is a "a utility-first CSS framework for rapidly building custom user interfaces."
-
 ---
 
+* [Platform](#platform)
 * [How to Use](#how-to-use)
   * [Setup](#setup)
   * [Configuration](#configuration)
 * [Resources](#resources)
 * [Author](#author)
+
+
+## Platform
+
+* React
+* Next.js
+* PostCss
+* Standard JS Lint
+* TSLint w/ Standard JS Config
+* PostCSS
+* Tailwind CSS
+* Stylelint
 
 
 ## How to Use
@@ -26,12 +37,15 @@ yarn run dev
 
 ### Configuration
 
+#### CSS
+
 Tailwind CSS can be configured with `tailwind.config.js`. Read the [Tailwind Configuration Documenation](https://tailwindcss.com/docs/configuration) for information on configuring Tailwind.
 
 ## Resources
 
-* [Next.js Documentation](https://github.com/zeit/next.js/)
-* [Tailwind.css Documentation](https://tailwindcss.com/docs/)
+* [Next.js](https://github.com/zeit/next.js/)
+* [TypeScript](http://www.typescriptlang.org/)
+* [Tailwind.css](https://tailwindcss.com/docs/)
 
 ---
 

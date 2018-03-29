@@ -17,19 +17,13 @@ export default class extends React.Component<{}, {}> {
           <div className='w-full max-w-lg'>
             <div className='mb-4'>
               <p className='text-sm text-grey-dark antialiased mb-2'>Next.js + TypeScript</p>
-              <h1 className='text-lg font-semibold'>
+              <a href='https://github.com/chrsgrffth/next-typescript' className='text-black hover:text-blue no-underline hover:underline'>
+              <h1 className='text-xl font-semibold mb-6'>
                 Universal TypeScript App
               </h1>
+              </a>
+              <p className='text-grey-darkest antialiased max-w-sm leading-normal'>No one likes a yappy dog. Just like no one likes Javascript that is impossible to queit down – get that thing trained. Start writing robust and maintainable code from day one because if it's not designed to scale, it's destined to fail.</p>
             </div>
-
-            <ul className='mb-6'>
-              <li>React</li>
-              <li>Next.js</li>
-              <li>PostCSS</li>
-              <li>Standard JS Lint</li>
-              <li>TSLint w/ Standard JS Config</li>
-              <li>Tailwind CSS</li>
-            </ul>
 
             <Author
               username='chrsgrffth'
@@ -41,5 +35,4 @@ export default class extends React.Component<{}, {}> {
       </DefaultLayout>
     )
   }
-
 }

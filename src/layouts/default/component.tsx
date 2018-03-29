@@ -12,7 +12,7 @@ export class DefaultLayout extends React.Component<Props, {}> {
     return (
       <div>
         <Head>
-          <title>Idea</title>
+          <title>Next.js + TypeScript</title>
           <meta name='viewport' content='initial-scale=1.0, width=device-width' />
         </Head>
         <style>{stylesheet}</style>
