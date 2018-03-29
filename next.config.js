@@ -1,26 +1,27 @@
-const withAwesomeTypescript = require('next-awesome-typescript')
-const options = {}
+/* eslint-env node */
+const withAwesomeTypescript = require('next-awesome-typescript');
+const options = {};
 
 const next = {
-  webpack: (config, { dev }) => {
+  webpack: (config) => {
     config.module.rules.push(
       {
         test: /\.(css|scss)/,
         loader: 'emit-file-loader',
         options: {
-          name: 'dist/[path][name].[ext]'
-        }
+          name: 'dist/[path][name].[ext]',
+        },
       },
       {
         test: /\.css$/,
-        use: ['raw-loader', 'postcss-loader']
+        use: ['raw-loader', 'postcss-loader'],
       }
-    )
-    return config
-  }
-}
+    );
+    return config;
+  },
+};
 
-module.exports = withAwesomeTypescript(options, next)
+module.exports = withAwesomeTypescript(options, next);
 
 // Resources:
 // * https://github.com/davibe/next.js-example-with-global-stylesheet/blob/master/next.config.js

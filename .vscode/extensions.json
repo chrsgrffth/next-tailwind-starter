@@ -1,6 +1,6 @@
 {
   "recommendations": [
-    "chenxsan.vscode-standardjs",
+    "dbaeumer.vscode-eslint",
     "shinnn.stylelint",
     "eg2.tslint"
   ]

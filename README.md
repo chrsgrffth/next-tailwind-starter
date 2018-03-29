@@ -15,8 +15,8 @@
 * React
 * Next.js
 * PostCss
-* Standard JS Lint
-* TSLint w/ Standard JS Config
+* ESLint
+* TSLint
 * PostCSS
 * Tailwind CSS
 * Stylelint
@@ -25,6 +25,7 @@
 ## How to Use
 
 ### Setup
+
 Install the dependencies:
 ```
 yarn
