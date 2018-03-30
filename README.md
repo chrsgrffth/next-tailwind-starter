@@ -5,9 +5,10 @@ A Next.js + Typescript starter for a server-rendered React application with stro
 ---
 
 * [Platform](#platform)
-* [How to Use](#how-to-use)
+* [Usage](#usage)
   * [Setup](#setup)
   * [Configuration](#configuration)
+  * [Deployment](#deployment)
 * [Resources](#resources)
 * [Author](#author)
 
@@ -28,7 +29,7 @@ A Next.js + Typescript starter for a server-rendered React application with stro
 * [Stylelint](https://stylelint.io/)
 
 
-## How to Use
+## Usage
 
 ### Setup
 
@@ -42,10 +43,6 @@ Run the development server:
 yarn run dev
 ```
 
-### Deployment
-
-See [Next.js Documentation](https://github.com/zeit/next.js/#production-deployment).
-
 ### Configuration
 
 #### Next.js
@@ -55,6 +52,12 @@ Custom configuration for Next.js is locate in `next.config.js`. Read the [Next.j
 #### CSS
 
 Tailwind CSS can be configured with `tailwind.config.js`. Read the [Tailwind Configuration Documenation](https://tailwindcss.com/docs/configuration) for information on configuring Tailwind.
+
+
+### Deployment
+
+See [Next.js Documentation](https://github.com/zeit/next.js/#production-deployment).
+
 
 ---
 
