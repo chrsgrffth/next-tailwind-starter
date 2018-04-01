@@ -7,7 +7,6 @@ interface Props {
 }
 
 export class DefaultLayout extends React.Component<Props, {}> {
-
   public render() {
     return (
       <div>
@@ -15,10 +14,9 @@ export class DefaultLayout extends React.Component<Props, {}> {
           <title>Next.js + TypeScript</title>
           <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         </Head>
-        <style>{stylesheet}</style>
+        <style dangerouslySetInnerHTML={{ __html: stylesheet.toString() }} />
         {this.props.children}
       </div>
     );
   }
-
 }
