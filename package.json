@@ -11,6 +11,7 @@
     "lint:javascript": "eslint *.js --fix",
     "lint:typescript": "tslint \"src/**/*.ts?(x)\" --fix",
     "lint:css": "stylelint \"src/**/*.css\"",
+    "test": "NODE_ENV=test jest",
     "precommit": "yarn lint"
   },
   "dependencies": {
@@ -23,10 +24,13 @@
     "@zeit/next-css": "0.1.2",
     "autoprefixer": "8.0.0",
     "css-loader": "0.28.10",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
     "eslint": "^4.19.1",
     "eslint-config-recommended": "^2.0.0",
     "eslint-plugin-react": "^7.7.0",
     "husky": "^0.14.3",
+    "jest": "^22.4.3",
     "next-awesome-typescript": "^0.2.0",
     "postcss": "6.0.19",
     "postcss-import": "11.1.0",
